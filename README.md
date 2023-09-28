@@ -45,12 +45,15 @@ then use GCN to encode graph.
 1. GGS_NN: Gated Graph Sequence Neural Networks. ICLR2016. [paper](https://arxiv.org/pdf/1511.05493.pdf)  [zhihu](https://zhuanlan.zhihu.com/p/28170197)
    1. Given Graph with sequential input, using GRU arhictecure to transmit information 
       
-      <img src="attachment:d99919bb50ede0e9241d4f241622d284" alt="截图" style="zoom:50%;" />
+      ![d99919bb50ede0e9241d4f241622d284](https://github.com/Leomingyangli/GNNPapers/assets/39786611/4fc2fd57-9b3b-4bdd-ac6d-ab8c12d7c1b8)
+
       
-      <img src="attachment:8cce063cc3e1d85125f806c570c50682" alt="截图" style="zoom:50%;" />
+      ![8cce063cc3e1d85125f806c570c50682](https://github.com/Leomingyangli/GNNPapers/assets/39786611/6ef98bc2-a5b6-4c93-b7a5-7db0edc56358)
+
    2. BABI tasks.
       
-      <img src="attachment:ef9bcfaf01ca4df5bab2a101a5ee6772" alt="截图" style="zoom:50%;" />
+      ![ef9bcfaf01ca4df5bab2a101a5ee6772](https://github.com/Leomingyangli/GNNPapers/assets/39786611/68fff72f-8a6e-4448-b868-a34f36a8db9c)
+
 
 2. GGT_NN Learning Graphical State Transitions. ICLR2017. [paper](https://openreview.net/pdf?id=HJ0NvFzxl)
    1. A GGS-NN based framework. BABI tasks
@@ -60,10 +63,13 @@ then use GCN to encode graph.
       3. hidden state
    3. Edge is belif if two nodes contain edge type, could be multiple types or no edge.
       
-      <img src="attachment:979e40bde4a1cb8508fa7506ab7dc212" alt="截图" style="zoom:50%;" />
+      ![979e40bde4a1cb8508fa7506ab7dc212](https://github.com/Leomingyangli/GNNPapers/assets/39786611/1862e887-659a-4294-94c2-1cc6b89c75b1)
+
    4. Could either output single words or sequential words, based on last layer
       
-      <img src="attachment:462ecdf9a613097b5a8a36f3c4e5e7e8" alt="截图" style="zoom:50%;" />
+      ![462ecdf9a613097b5a8a36f3c4e5e7e8](https://github.com/Leomingyangli/GNNPapers/assets/39786611/8885773c-07f4-4b94-8700-f86fc9d5d059)
+
    5. The most valuable part is how to add new nodes by GRU(G, input vector) -> Graph with new nodes(annotation, strength, state)
       
-      <img src="attachment:fef8f7996ff11257238ccf1af2e55c42" alt="截图" style="zoom:50%;" />
+      ![fef8f7996ff11257238ccf1af2e55c42](https://github.com/Leomingyangli/GNNPapers/assets/39786611/d2ea4472-a331-40c1-8d52-5f12a52288dd)
+

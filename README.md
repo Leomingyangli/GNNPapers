@@ -37,7 +37,7 @@ then use GCN to encode graph.
 1. Edge-Labeling Graph Neural Network for Few-shot Learning. CVPR 2019. [paper](https://arxiv.org/pdf/1905.01436.pdf)
    1. Few-shot Learning. Node as tasks with (input, label). Edges is 2d(intra, inter) indicate if two nodes share same label
    2. The goal is to predict edge between support set S(with label) and query set Q(without label)
-   3. ![567d1f17b245e97242e55b1152fb1370](https://github.com/Leomingyangli/GNNPapers/assets/39786611/5f9078bf-c50a-494a-93af-2f08ccd8df30)
+   3. <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/5f9078bf-c50a-494a-93af-2f08ccd8df30" alt="Image" style="width: 50%;" />
 
 
 # Sequential RNN

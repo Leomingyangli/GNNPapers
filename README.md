@@ -51,7 +51,7 @@ then use GCN to encode graph.
       ![ef9bcfaf01ca4df5bab2a101a5ee6772](https://github.com/Leomingyangli/GNNPapers/assets/39786611/68fff72f-8a6e-4448-b868-a34f36a8db9c)
 
 
-2. GGT_NN Learning Graphical State Transitions. ICLR2017. [paper](https://openreview.net/pdf?id=HJ0NvFzxl)
+2. **GGT_NN Learning Graphical State Transitions.** ICLR2017. [paper](https://openreview.net/pdf?id=HJ0NvFzxl)
    1. A GGS-NN based framework. BABI tasks
    2. Node has
       1. annotation of type belif value, vector sum to 1, 

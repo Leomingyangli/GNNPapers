@@ -66,3 +66,6 @@ then use GCN to encode graph.
    5. The most valuable part is how to add new nodes from GRU(G, input vector) to Graph with new nodes(annotation, strength, state)
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d2ea4472-a331-40c1-8d52-5f12a52288dd" alt="Image" style="width: 50%;" />
 
+# Suvery
+1. **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey**. 2020. [paper]([url](https://arxiv.org/pdf/2005.07496.pdf)https://arxiv.org/pdf/2005.07496.pdf)
+   

@@ -33,13 +33,14 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
    3. The grid decoder is fixed. The gird feautre and color weight $\theta,\omega$ are parameters to be optimized
    4. The Mapping is to optimize $\theta,\omega, R, t$ of K selected keyframes
    5. The tracking is to optimize  $R, t$ of current frame
-      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/ed59cc64-9246-4d6b-8734-3b7b0183ae66" alt="Image" style="width: 50%;" />
+   <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/ed59cc64-9246-4d6b-8734-3b7b0183ae66" alt="Image" style="width: 50%;" />
       
-2.**iMAP: Implicit Mapping and Positioning in Real-Time** CVPR 2021 [paper]([url](https://arxiv.org/pdf/2103.12352.pdf))
+2.**iMAP: Implicit Mapping and Positioning in Real-Time** CVPR 2021 [paper](https://arxiv.org/pdf/2103.12352.pdf)
    <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/39394061-22db-44f0-99b7-ecce9c408dac" alt="Image" style="width: 50%;" />
 
-3.**Neural Implicit Dense Semantic SLAM** CVPR 2023. [paper]([url](https://arxiv.org/pdf/2304.14560.pdf))defcd9fb-61ec-46b3-8390-96f6103c3176
-<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/defcd9fb-61ec-46b3-8390-96f6103c3176" alt="Image" style="width: 50%;" />
+3.**Neural Implicit Dense Semantic SLAM** CVPR 2023. [paper](https://arxiv.org/pdf/2304.14560.pdf)
+
+   <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/defcd9fb-61ec-46b3-8390-96f6103c3176" alt="Image" style="width: 50%;" />
 
    
 # Localization

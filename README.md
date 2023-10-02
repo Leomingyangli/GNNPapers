@@ -19,6 +19,12 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
    5. Inductive learning. No fixed-size neighborhood
    6. Predict article class by keywords as nodes and citations as edges.
 
+# Survey
+1. Deep Learning for 3D Point Clouds: A Survey TPAMI 2020. [Deep Learning for 3D Point Clouds: A Survey]([url](https://arxiv.org/pdf/1912.12033.pdf))
+   <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/97fda8a0-a6ed-4504-b4e9-0d717964f06f" alt="Image" style="width: 50%;" />
+
+
+
 # Localization
 
 1. **SEM-GAT: Explainable Semantic Pose Estimation using Learned Graph Attention** [paper](https://arxiv.org/pdf/2308.03718.pdf) 
@@ -73,4 +79,3 @@ then use GCN to encode graph.
 1. **Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images** CVPR 2018. [paper]([url](https://arxiv.org/pdf/1804.01654.pdf)https://arxiv.org/pdf/1804.01654.pdf)
    1. Use GCN to produce 3D shape in triangular mesh from a single color image
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/0a873dbd-90ae-4383-9995-f8a930479561" alt="Image" style="width: 50%;" />
-

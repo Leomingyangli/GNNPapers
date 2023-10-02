@@ -68,4 +68,9 @@ then use GCN to encode graph.
 
 # Suvery
 1. **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey**. 2020. [paper]([url](https://arxiv.org/pdf/2005.07496.pdf)https://arxiv.org/pdf/2005.07496.pdf)
-   
+
+# 3D-pointcloud
+1. **Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images** CVPR 2018. [paper]([url](https://arxiv.org/pdf/1804.01654.pdf)https://arxiv.org/pdf/1804.01654.pdf)
+   1. Use GCN to produce 3D shape in triangular mesh from a single color image
+      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/0a873dbd-90ae-4383-9995-f8a930479561" alt="Image" style="width: 50%;" />
+

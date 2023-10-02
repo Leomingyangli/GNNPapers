@@ -20,13 +20,29 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
    6. Predict article class by keywords as nodes and citations as edges.
 
 # Survey
-1. Deep Learning for 3D Point Clouds: A Survey TPAMI 2020. [Deep Learning for 3D Point Clouds: A Survey]([url](https://arxiv.org/pdf/1912.12033.pdf))
-   <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/97fda8a0-a6ed-4504-b4e9-0d717964f06f" alt="Image" style="width: 50%;" />
+1. **Deep Learning for 3D Point Clouds: A Survey** TPAMI 2020. [paper](https://arxiv.org/pdf/1912.12033.pdf))
+<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/97fda8a0-a6ed-4504-b4e9-0d717964f06f" alt="Image" style="width: 50%;" />
 
+2. **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey** 2021 [paper](https://arxiv.org/pdf/2005.07496.pdf)
+   1. Define dynamic graph networks.
+      
+# Map
+1.**NICE-SLAM: Neural Implicit Scalable Encoding for SLAM** CVPR 2022. [paper](https://arxiv.org/pdf/2112.12130.pdf)
+   1. Input RGBD images and pose, predict the pixel depth and color.
+   2. Given pose, sampled points along the ray, the pixel depth is weighted sum of <u>occupancy probability times sampled depth</u> along the points. Color has color values.
+   3. The grid decoder is fixed. The gird feautre and color weight $\theta,\omega$ are parameters to be optimized
+   4. The Mapping is to optimize $\theta,\omega, R, t$ of K selected keyframes
+   5. The tracking is to optimize  $R, t$ of current frame
+      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/ed59cc64-9246-4d6b-8734-3b7b0183ae66" alt="Image" style="width: 50%;" />
+      
+2.**iMAP: Implicit Mapping and Positioning in Real-Time** CVPR 2021 [paper]([url](https://arxiv.org/pdf/2103.12352.pdf))
+   <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/39394061-22db-44f0-99b7-ecce9c408dac" alt="Image" style="width: 50%;" />
 
+3.**Neural Implicit Dense Semantic SLAM** CVPR 2023. [paper]([url](https://arxiv.org/pdf/2304.14560.pdf))defcd9fb-61ec-46b3-8390-96f6103c3176
+<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/defcd9fb-61ec-46b3-8390-96f6103c3176" alt="Image" style="width: 50%;" />
 
+   
 # Localization
-
 1. **SEM-GAT: Explainable Semantic Pose Estimation using Learned Graph Attention** [paper](https://arxiv.org/pdf/2308.03718.pdf) 
    1. Given two sequential pointclouds from lidar (we use pixels from RGB), each node contains
       1. 3d coordinate
@@ -39,7 +55,6 @@ then use GCN to encode graph.
    4. Use weighted Singular Value Decomposition(SVD) to get Rotation and Translation from matrix.
   
 # Edge
-
 1. **Edge-Labeling Graph Neural Network for Few-shot Learning.** CVPR 2019. [paper](https://arxiv.org/pdf/1905.01436.pdf)
    1. Few-shot Learning. Node as tasks with (input, label). Edges is 2d(intra, inter) indicate if two nodes share same label
    2. The goal is to predict edge between support set S(with label) and query set Q(without label)
@@ -47,7 +62,6 @@ then use GCN to encode graph.
 
 
 # Sequential RNN
-
 1. **GGS_NN: Gated Graph Sequence Neural Networks.** ICLR2016. [paper](https://arxiv.org/pdf/1511.05493.pdf)  [zhihu](https://zhuanlan.zhihu.com/p/28170197)
    1. Given Graph with sequential input, using GRU arhictecure to transmit information 
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/4fc2fd57-9b3b-4bdd-ac6d-ab8c12d7c1b8" alt="Image" style="width: 50%;" />
@@ -72,8 +86,6 @@ then use GCN to encode graph.
    5. The most valuable part is how to add new nodes from GRU(G, input vector) to Graph with new nodes(annotation, strength, state)
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d2ea4472-a331-40c1-8d52-5f12a52288dd" alt="Image" style="width: 50%;" />
 
-# Suvery
-1. **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey**. 2020. [paper]([url](https://arxiv.org/pdf/2005.07496.pdf)https://arxiv.org/pdf/2005.07496.pdf)
 
 # 3D-pointcloud
 1. **Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images** CVPR 2018. [paper]([url](https://arxiv.org/pdf/1804.01654.pdf)https://arxiv.org/pdf/1804.01654.pdf)

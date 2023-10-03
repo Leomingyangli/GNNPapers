@@ -44,7 +44,9 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
 
    
 # Localization
-1. **SEM-GAT: Explainable Semantic Pose Estimation using Learned Graph Attention** [paper](https://arxiv.org/pdf/2308.03718.pdf) 
+1. **SEM-GAT: Explainable Semantic Pose Estimation using Learned Graph Attention** [paper](https://arxiv.org/pdf/2308.03718.pdf)
+   <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/94439d5c-ddf6-4f40-8607-7ba10aef7f4e" alt="Image" style="width: 50%;" />
+
    1. Given two sequential pointclouds from lidar (we use pixels from RGB), each node contains
       1. 3d coordinate
       2. semantic(e.g., people,sidewalk,building) - (we have semantic category)
@@ -66,14 +68,16 @@ then use GCN to encode graph.
 1. **GGS_NN: Gated Graph Sequence Neural Networks.** ICLR2016. [paper](https://arxiv.org/pdf/1511.05493.pdf)  [zhihu](https://zhuanlan.zhihu.com/p/28170197)
    1. Given Graph with sequential input, using GRU arhictecure to transmit information.
    2. All the decription of the task is in the adjacent matrix. For question, add annotation [1,0] as start node and [0,1] as target for initialization.
-      
-      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/4fc2fd57-9b3b-4bdd-ac6d-ab8c12d7c1b8" alt="Image" style="width: 50%;" />
-      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/6ef98bc2-a5b6-4c93-b7a5-7db0edc56358" alt="Image" style="width: 50%;" />
-      
+      <p float="left">
+      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/4fc2fd57-9b3b-4bdd-ac6d-ab8c12d7c1b8" alt="Image" style="width: 40%;" />
+      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/6ef98bc2-a5b6-4c93-b7a5-7db0edc56358" alt="Image" style="width: 40%;" />
+      </p>
    4. The GRU are processed multiple times, meaning hidden state of each node update several times.
-      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/a1fed10f-6aee-4813-9c21-25cc1e2d10e1" alt="Image" style="width: 50%;" />
-      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d56bc899-4785-4aee-a4d8-ec14c7917a85" alt="Image" style="width: 50%;" />
-   5. BABI tasks
+      <p float="left">
+      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/a1fed10f-6aee-4813-9c21-25cc1e2d10e1" alt="Image" style="width: 40%;" />
+      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d56bc899-4785-4aee-a4d8-ec14c7917a85" alt="Image" style="width: 40%;" />
+      </p>
+   6. BABI tasks
   
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/68fff72f-8a6e-4448-b868-a34f36a8db9c" alt="Image" style="width: 30%;" />
 

@@ -64,15 +64,21 @@ then use GCN to encode graph.
 
 # Sequential RNN
 1. **GGS_NN: Gated Graph Sequence Neural Networks.** ICLR2016. [paper](https://arxiv.org/pdf/1511.05493.pdf)  [zhihu](https://zhuanlan.zhihu.com/p/28170197)
-   1. Given Graph with sequential input, using GRU arhictecure to transmit information 
+   1. Given Graph with sequential input, using GRU arhictecure to transmit information.
+   2. All the decription of the task is in the adjacent matrix. For question, add annotation [1,0] as start node and [0,1] as target for initialization.
+      
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/4fc2fd57-9b3b-4bdd-ac6d-ab8c12d7c1b8" alt="Image" style="width: 50%;" />
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/6ef98bc2-a5b6-4c93-b7a5-7db0edc56358" alt="Image" style="width: 50%;" />
+      
+   4. The GRU are processed multiple times, meaning hidden state of each node update several times.
+      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/a1fed10f-6aee-4813-9c21-25cc1e2d10e1" alt="Image" style="width: 50%;" />
+      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d56bc899-4785-4aee-a4d8-ec14c7917a85" alt="Image" style="width: 50%;" />
+   5. BABI tasks
+  
+      <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/68fff72f-8a6e-4448-b868-a34f36a8db9c" alt="Image" style="width: 30%;" />
 
-   2. BABI tasks.
-      ![ef9bcfaf01ca4df5bab2a101a5ee6772](https://github.com/Leomingyangli/GNNPapers/assets/39786611/68fff72f-8a6e-4448-b868-a34f36a8db9c)
 
-
-2. **GGT_NN Learning Graphical State Transitions.** ICLR2017. [paper](https://openreview.net/pdf?id=HJ0NvFzxl)
+3. **GGT_NN Learning Graphical State Transitions.** ICLR2017. [paper](https://openreview.net/pdf?id=HJ0NvFzxl)
    1. A GGS-NN based framework. BABI tasks
    2. Node has
       1. annotation of type belif value, vector sum to 1, 

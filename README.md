@@ -2,8 +2,19 @@ GNN: graph neural network
 
 These reading it to implementing scene mapping as a graph using pointcloud or RGBD images.
 
-# Basic
+## Contents
+- [Basic](#Basic)
+- [Survey](#Survey)
+- [Map](#Map)
+- [Localization](#Localization)
+- [Edge](#Edge)
+- [RNN](#RNN)
+- [Graph Construction](#GraphConstruction)
+- [3D PointCloud](#pointcloud)
 
+
+## Basic
+<a name="Basic" />
 1. **Semi-supervised classification with graph convolutional networks** ICLR 2016. [paper](https://arxiv.org/pdf/1609.02907.pdf) 
    1. Propose GCN
    2. Transductive learning, needs whole graph. Semi-supervised learning
@@ -19,14 +30,16 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
    5. Inductive learning. No fixed-size neighborhood
    6. Predict article class by keywords as nodes and citations as edges.
 
-# Survey
+## Survey
+<a name="Survey" />
 1. **Deep Learning for 3D Point Clouds: A Survey** TPAMI 2020. [paper](https://arxiv.org/pdf/1912.12033.pdf))
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/97fda8a0-a6ed-4504-b4e9-0d717964f06f" alt="Image" style="width: 50%;" />
 
 2. **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey** 2021 [paper](https://arxiv.org/pdf/2005.07496.pdf)
    1. Define dynamic graph networks.
       
-# Map
+## Map
+<a name="Map" />
 1.**NICE-SLAM: Neural Implicit Scalable Encoding for SLAM** CVPR 2022. [paper](https://arxiv.org/pdf/2112.12130.pdf)
    1. Input RGBD images and pose, predict the pixel depth and color.
    2. Given pose, sampled points along the ray, the pixel depth is weighted sum of <u>occupancy probability times sampled depth</u> along the points. Color has color values.
@@ -43,7 +56,8 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
    <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/defcd9fb-61ec-46b3-8390-96f6103c3176" alt="Image" style="width: 50%;" />
 
    
-# Localization
+## Localization
+<a name="Localization" />
 1. **SEM-GAT: Explainable Semantic Pose Estimation using Learned Graph Attention** [paper](https://arxiv.org/pdf/2308.03718.pdf)
    <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/94439d5c-ddf6-4f40-8607-7ba10aef7f4e" alt="Image" style="width: 50%;" />
 
@@ -57,14 +71,16 @@ then use GCN to encode graph.
    3. Generating cross-covariance matrix for nodes pair.
    4. Use weighted Singular Value Decomposition(SVD) to get Rotation and Translation from matrix.
   
-# Edge
+## Edge
+<a name="Edge" />
 1. **Edge-Labeling Graph Neural Network for Few-shot Learning.** CVPR 2019. [paper](https://arxiv.org/pdf/1905.01436.pdf)
    1. Few-shot Learning. Node as tasks with (input, label). Edges is 2d(intra, inter) indicate if two nodes share same label
    2. The goal is to predict edge between support set S(with label) and query set Q(without label)
    3. <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/5f9078bf-c50a-494a-93af-2f08ccd8df30" alt="Image" style="width: 50%;" />
 
 
-# Sequential RNN
+## Sequential RNN
+<a name="RNN" />
 1. **GGS_NN: Gated Graph Sequence Neural Networks.** ICLR2016. [paper](https://arxiv.org/pdf/1511.05493.pdf)  [zhihu](https://zhuanlan.zhihu.com/p/28170197)
    1. Given Graph with sequential input, using GRU arhictecure to transmit information.
    2. All the decription of the task is in the adjacent matrix. For question, add annotation [1,0] as start node and [0,1] as target for initialization.
@@ -81,7 +97,8 @@ then use GCN to encode graph.
   
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/68fff72f-8a6e-4448-b868-a34f36a8db9c" alt="Image" style="width: 30%;" />
 
-# Graph Construction
+## Graph Construction
+<a name="GraphConstruction" />
 1. **GGT_NN Learning Graphical State Transitions.** ICLR2017. [paper](https://openreview.net/pdf?id=HJ0NvFzxl)
    1. A GGS-NN based framework. BABI tasks
    2. Node has
@@ -98,7 +115,8 @@ then use GCN to encode graph.
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d2ea4472-a331-40c1-8d52-5f12a52288dd" alt="Image" style="width: 50%;" />
 
 
-# 3D-pointcloud
+## 3D-pointcloud
+<a name="pointcloud" />
 1. **Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images** CVPR 2018. [paper](https://arxiv.org/pdf/1804.01654.pdf)
    1. Use GCN to produce 3D shape in triangular mesh from a single color image
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/0a873dbd-90ae-4383-9995-f8a930479561" alt="Image" style="width: 50%;" />

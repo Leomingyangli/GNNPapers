@@ -3,7 +3,7 @@ GNN: graph neural network
 These reading it to implementing scene mapping as a graph using pointcloud or RGBD images.
 
 ## Contents
-- [Basic](#Basic)
+- `[Basic](#Basic)`
 - <a href="#basic">1. Basic</a>
 - [Survey](#Survey)
 - [Map](#Map)
@@ -15,8 +15,8 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
 
 
 ## [Basic](#content)
-%<a name="Basic" />
-
+`<a name="Basic" />`
+ 
 1. **Semi-supervised classification with graph convolutional networks** ICLR 2016. [paper](https://arxiv.org/pdf/1609.02907.pdf) 
    1. Propose GCN
    2. Transductive learning, needs whole graph. Semi-supervised learning

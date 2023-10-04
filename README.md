@@ -121,7 +121,7 @@ then use GCN to encode graph.
       <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d2ea4472-a331-40c1-8d52-5f12a52288dd" alt="Image" style="width: 50%;" />
 
 
-## [3D-pointcloud](#content)
+## [3D PointCloud](#content)
 
 
 1. **Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images** CVPR 2018. [paper](https://arxiv.org/pdf/1804.01654.pdf)

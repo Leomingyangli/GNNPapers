@@ -3,15 +3,14 @@ GNN: graph neural network
 These reading it to implementing scene mapping as a graph using pointcloud or RGBD images.
 
 ## Contents
-- `[Basic](#Basic)`
 - <a href="#basic">1. Basic</a>
-- [Survey](#Survey)
-- [Map](#Map)
-- [Localization](#Localization)
-- [Edge](#Edge)
-- [RNN](#RNN)
-- [Graph Construction](#GraphConstruction)
-- [3D PointCloud](#pointcloud)
+- <a href="#survey">2. Survey</a>
+- <a href="#map">3. Map</a>
+- <a href="#basic">1. Basic</a>[Localization](#Localization)
+- <a href="#basic">1. Basic</a>[Edge](#Edge)
+- <a href="#basic">1. Basic</a>[RNN](#RNN)
+- <a href="#basic">1. Basic</a>[Graph Construction](#GraphConstruction)
+- <a href="#basic">1. Basic</a>[3D PointCloud](#pointcloud)
 
 
 ## [Basic](#content)
@@ -32,8 +31,8 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
    5. Inductive learning. No fixed-size neighborhood
    6. Predict article class by keywords as nodes and citations as edges.
 
-## Survey
-<a name="Survey" />
+## [Survey](#content)
+
 
 1. **Deep Learning for 3D Point Clouds: A Survey** TPAMI 2020. [paper](https://arxiv.org/pdf/1912.12033.pdf))
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/97fda8a0-a6ed-4504-b4e9-0d717964f06f" alt="Image" style="width: 50%;" />
@@ -41,8 +40,8 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
 2. **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey** 2021 [paper](https://arxiv.org/pdf/2005.07496.pdf)
    1. Define dynamic graph networks.
       
-## Map
-<a name="Map" />
+## [Map](#content)
+
 
 1.**NICE-SLAM: Neural Implicit Scalable Encoding for SLAM** CVPR 2022. [paper](https://arxiv.org/pdf/2112.12130.pdf)
    1. Input RGBD images and pose, predict the pixel depth and color.

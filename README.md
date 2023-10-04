@@ -2,7 +2,7 @@ GNN: graph neural network
 
 These reading it to implementing scene mapping as a graph using pointcloud or RGBD images.
 
-## Contents
+## Content
 - <a href="#basic">1. Basic</a>
 - <a href="#survey">2. Survey</a>
 - <a href="#map">3. Map</a>

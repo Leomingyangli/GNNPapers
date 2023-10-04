@@ -4,6 +4,7 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
 
 ## Contents
 - [Basic](#Basic)
+- <a href="#basic">1. Basic</a>
 - [Survey](#Survey)
 - [Map](#Map)
 - [Localization](#Localization)
@@ -13,8 +14,8 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
 - [3D PointCloud](#pointcloud)
 
 
-## Basic
-<a name="Basic" />
+## [Basic](#content)
+%<a name="Basic" />
 
 1. **Semi-supervised classification with graph convolutional networks** ICLR 2016. [paper](https://arxiv.org/pdf/1609.02907.pdf) 
    1. Propose GCN

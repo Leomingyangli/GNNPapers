@@ -19,16 +19,28 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
    1. Propose GCN
    2. Transductive learning, needs whole graph. Semi-supervised learning
 2. **Inductive Representation Learning on Large Graphs** ICLR 2017. [paper](https://arxiv.org/pdf/1706.02216.pdf) 
-   1. Instead of train the whole graph(all neighbors), SAGE aggregate node with sampled fixed number of  kth-order neighbors. 
+   1. Instead of train the whole graph(all neighbors), GraphSAGE aggregate node with sampled fixed number of  kth-order neighbors. 
    2. Inductive learning that generalize to dynamic nodes or graph.
    3. Best result when using LSTM aggregator. However, it assumes the a consistent sequential node ordering across neighborhoods
-3. **Graph Attention Networks** ICLR 2018. [paper](https://arxiv.org/pdf/1710.10903.pdf)
+3. **FastGCN: Fast learning with graph convolutional networks via importance sampling** ICLR 2018 [paper](https://arxiv.org/pdf/1801.10247.pdf)
+   1. Different from sampling fixed number of neighbors(GraphSAGE), sample fixed number of nodes in each layer
+   2. A induced subgraph G\`:(V\`, F, P) of G, node V\` as iid samples according to probability measure P.
+   3. For probability space, V\` sample space, F any event space, P is sampling distribution.
+   4. GraphSAGE samples tl neighbors for each vertex in the lth layer, then the size of the
+expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN the total number of involved vertices is at most the sum of the tl’s, rather than the product.
+   <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/c9b02935-8fe5-463e-9fd8-aa41473fa365" alt="Image" style="width: 50%;" />
+   
+   5. The aggregation is based on probability measure q of each node, which is integral of Adjacent matrix A.
+    <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d9253e67-9e8d-482e-a526-fe10bb390b3d" alt="Image" style="width: 50%;" />
+
+4. **Graph Attention Networks** ICLR 2018. [paper](https://arxiv.org/pdf/1710.10903.pdf)
    1. Weight calculation from node connectivity to node features
    2. Time complexity of a single GAT attention: O(|V|FF+|E|F)
    3. Not depend on upfront access to the whole graph; no need to know the graph structure upfront
    4. Undirected edge not required (no edge, no computing)
    5. Inductive learning. No fixed-size neighborhood
    6. Predict article class by keywords as nodes and citations as edges.
+
 
 ## [Survey](#content)
 

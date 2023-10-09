@@ -30,7 +30,7 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
 expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN the total number of involved vertices is at most the sum of the tl’s, rather than the product.
    <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/c9b02935-8fe5-463e-9fd8-aa41473fa365" alt="Image" style="width: 50%;" />
    
-   5. The aggregation is based on probability measure q of each node, which is integral of Adjacent matrix A.
+   5. The aggregation is based on probability measure q of each node, which is integral of Adjacent matrix for subgraph G\`.
     <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d9253e67-9e8d-482e-a526-fe10bb390b3d" alt="Image" style="width: 50%;" />
 
    6. Cant applied to sparse graph when no/few connection between two layers. Split G into G\`s(batch) in Monte Carlo manner.

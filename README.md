@@ -24,7 +24,7 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
    3. Best result when using LSTM aggregator. However, it assumes the a consistent sequential node ordering across neighborhoods
 3. **FastGCN: Fast learning with graph convolutional networks via importance sampling** ICLR 2018 [paper](https://arxiv.org/pdf/1801.10247.pdf)
    1. Different from sampling fixed number of neighbors(GraphSAGE), sample fixed number of nodes in each layer
-   2. A induced subgraph G\`:(V\`, F, P) of G, node V\` as iid samples according to probability measure P.
+   2. A induced subgraph G\`:(V\`, F, P) of G, node V\` as iid samples according to probability measure P. 
    3. For probability space, V\` sample space, F any event space, P is sampling distribution.
    4. GraphSAGE samples tl neighbors for each vertex in the lth layer, then the size of the
 expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN the total number of involved vertices is at most the sum of the tl’s, rather than the product.
@@ -32,6 +32,8 @@ expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN 
    
    5. The aggregation is based on probability measure q of each node, which is integral of Adjacent matrix A.
     <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d9253e67-9e8d-482e-a526-fe10bb390b3d" alt="Image" style="width: 50%;" />
+
+   6. Cant applied to sparse graph when no/few connection between two layers. Split G into G\`s(batch) in Monte Carlo manner.
 
 4. **Graph Attention Networks** ICLR 2018. [paper](https://arxiv.org/pdf/1710.10903.pdf)
    1. Weight calculation from node connectivity to node features

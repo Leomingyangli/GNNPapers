@@ -5,12 +5,13 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
 ## [Content](#content)
 - <a href="#basic">1. Basic</a>
 - <a href="#survey">2. Survey</a>
-- <a href="#map">3. Map</a>
-- <a href="#Localization">4. Localization</a>
-- <a href="#Edge">5. Edge</a>
-- <a href="#sequential-RNN">6. RNN</a>
-- <a href="#graph-construction">7.Graph Construction</a>
-- <a href="#3D-PointCloud">8. 3D PointCloud</a>
+- <a href="#Scene-Graph">3. Scene Graph</a>
+- <a href="#map">4. Map</a>
+- <a href="#Localization">5. Localization</a>
+- <a href="#Edge">6. Edge</a>
+- <a href="#sequential-RNN">7. RNN</a>
+- <a href="#graph-construction">8.Graph Construction</a>
+- <a href="#3D-PointCloud">9. 3D PointCloud</a>
 
 
 ## [Basic](#content)
@@ -47,11 +48,20 @@ expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN 
 ## [Survey](#content)
 
 
-1. **Deep Learning for 3D Point Clouds: A Survey** TPAMI 2020. [paper](https://arxiv.org/pdf/1912.12033.pdf))
+1. **Deep Learning for 3D Point Clouds: A Survey** TPAMI 2020. [paper](https://arxiv.org/pdf/1912.12033.pdf)
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/97fda8a0-a6ed-4504-b4e9-0d717964f06f" alt="Image" style="width: 50%;" />
 
 2. **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey** 2021 [paper](https://arxiv.org/pdf/2005.07496.pdf)
    1. Define dynamic graph networks.
+
+## [Scene Graph](#content)
+1. **Graph R-CNN for Scene Graph Generation** [paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Jianwei_Yang_Graph_R-CNN_for_ECCV_2018_paper.pdf)
+
+<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/ef6c730f-cec4-463a-ad44-389c5ecde29b" alt="Image" style="width: 50%;" />
+  
+2. **SceneGraphFusion: Incremental 3D Scene Graph Prediction from RGB-D Sequences** [paper](https://arxiv.org/pdf/2103.14898.pdf)
+
+<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/b5229e2f-04dd-4f65-b645-2ba509606afe" alt="Image" style="width: 50%;" />
       
 ## [Map](#content)
 

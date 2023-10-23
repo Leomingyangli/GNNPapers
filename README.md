@@ -55,7 +55,7 @@ expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN 
    1. Define dynamic graph networks.
 
 ## [Scene Graph](#content)
-1. **Graph R-CNN for Scene Graph Generation** [paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Jianwei_Yang_Graph_R-CNN_for_ECCV_2018_paper.pdf)
+1. **Graph R-CNN for Scene Graph Generation** ECCV 2018 [paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Jianwei_Yang_Graph_R-CNN_for_ECCV_2018_paper.pdf)
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/ef6c730f-cec4-463a-ad44-389c5ecde29b" alt="Image" style="width: 50%;" />
   

@@ -62,6 +62,14 @@ expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN 
 2. **SceneGraphFusion: Incremental 3D Scene Graph Prediction from RGB-D Sequences** [paper](https://arxiv.org/pdf/2103.14898.pdf)
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/b5229e2f-04dd-4f65-b645-2ba509606afe" alt="Image" style="width: 50%;" />
+
+3. **PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things** IROS 2019 [paper](https://arxiv.org/pdf/1903.01177.pdf)
+
+<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/9faff926-1b3f-4da5-b513-e497ca10f20a" alt="Image" style="width: 50%;" />
+
+5. **Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation** CVPR 2020 [paper](https://arxiv.org/pdf/2003.06233.pdf)
+
+<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/89a16a96-b933-45ef-8ed8-255b3a8fe2b9" alt="Image" style="width: 50%;" />
       
 ## [Map](#content)
 

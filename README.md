@@ -75,33 +75,27 @@ expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN 
       ![image](https://github.com/Leomingyangli/GNNPapers/assets/39786611/92aab22b-e983-43e7-ac37-a2ebb123ebe8)
       ![image](https://github.com/Leomingyangli/GNNPapers/assets/39786611/e358cac5-64a4-4c1b-a434-be908fab8e53)
       ![image](https://github.com/Leomingyangli/GNNPapers/assets/39786611/3a8e8258-4363-4f9d-8636-0ce196e27908)
+      
+2. **Per-pixel classification is not all you need for semantic segmentation** NeurIPS 2021 [paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/950a4152c2b4aa3ad78bdd6b366cc179-Paper.pdf)
 
+<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/02b14fbd-4513-42e5-bc6c-b1a2fed0c970" alt="Image" style="width: 50%;" />
    
-1. **Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation** CVPR 2020 [paper](https://arxiv.org/pdf/2003.06233.pdf)
+3. **Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation** CVPR 2020 [paper](https://arxiv.org/pdf/2003.06233.pdf)
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/89a16a96-b933-45ef-8ed8-255b3a8fe2b9" alt="Image" style="width: 50%;" />
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/85d542e2-4460-4d75-a4c0-7457d254350b" alt="Image" style="width: 50%;" />
 
-2. **PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things** IROS 2019 [paper](https://arxiv.org/pdf/1903.01177.pdf)
+4. **PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things** IROS 2019 [paper](https://arxiv.org/pdf/1903.01177.pdf)
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/9faff926-1b3f-4da5-b513-e497ca10f20a" alt="Image" style="width: 50%;" />
 
-3. **ProgressiveFusion: Real-time progressive 3d semantic segmentation for indoor scenes** WACV 2019 [paper](https://arxiv.org/pdf/1804.00257.pdf)
+5. **ProgressiveFusion: Real-time progressive 3d semantic segmentation for indoor scenes** WACV 2019 [paper](https://arxiv.org/pdf/1804.00257.pdf)
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/ada164c8-d310-43d4-9899-23e6a29187b6" alt="Image" style="width: 50%;" />
 
-4. **SemanticFusion: Dense 3D Semantic Mapping with Convolutional Neural Networks** ICRA 2017 [paper](https://arxiv.org/pdf/1609.05130.pdf)
+6. **SemanticFusion: Dense 3D Semantic Mapping with Convolutional Neural Networks** ICRA 2017 [paper](https://arxiv.org/pdf/1609.05130.pdf)
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/b800219c-f1c3-4cae-8fe8-6ce9ebee31fd" alt="Image" style="width: 50%;" />
-
-5. **Per-pixel classification is not all you need for semantic segmentation** NeurIPS 2021 [paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/950a4152c2b4aa3ad78bdd6b366cc179-Paper.pdf)
-
-<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/02b14fbd-4513-42e5-bc6c-b1a2fed0c970" alt="Image" style="width: 50%;" />
-
-6. **PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things** IROS 2019 [paper](https://arxiv.org/pdf/1903.01177.pdf)
-
-<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d0edb319-ad23-4e0b-8df9-f48dfac12898" alt="Image" style="width: 50%;" />
-
       
 ## [SLAM](#content)
 

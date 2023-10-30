@@ -11,7 +11,7 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
 - <a href="#Localization">5. Localization</a>
 - <a href="#Edge">6. Edge</a>
 - <a href="#sequential-RNN">7. RNN</a>
-- <a href="#graph-construction">8.Graph Construction</a>
+- <a href="#graph-construction">8. Graph Construction</a>
 - <a href="#3D-PointCloud">9. 3D PointCloud</a>
 
 

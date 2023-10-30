@@ -64,7 +64,7 @@ expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN 
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/b5229e2f-04dd-4f65-b645-2ba509606afe" alt="Image" style="width: 50%;" />
 
-2.1. **Incremental 3D Semantic Scene Graph Prediction from RGB Sequences** CVPR 2023 [paper](https://arxiv.org/pdf/2305.02743.pdf)
+3. **Incremental 3D Semantic Scene Graph Prediction from RGB Sequences** CVPR 2023 [paper](https://arxiv.org/pdf/2305.02743.pdf)
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/06234748-9740-4832-a546-baf384192ff9" alt="Image" style="width: 50%;" />
 

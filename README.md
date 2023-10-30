@@ -6,6 +6,7 @@ These reading it to implementing scene mapping as a graph using pointcloud or RG
 - <a href="#basic">1. Basic</a>
 - <a href="#survey">2. Survey</a>
 - <a href="#Scene-Graph">3. Scene Graph</a>
+- <a href="#Segment">3.2 Semantic/Panoptic Segmentation</a>
 - <a href="#map">4. Map</a>
 - <a href="#Localization">5. Localization</a>
 - <a href="#Edge">6. Edge</a>
@@ -67,7 +68,7 @@ expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN 
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/06234748-9740-4832-a546-baf384192ff9" alt="Image" style="width: 50%;" />
 
-
+## [Segment](#content)
 3. **Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation** CVPR 2020 [paper](https://arxiv.org/pdf/2003.06233.pdf)
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/89a16a96-b933-45ef-8ed8-255b3a8fe2b9" alt="Image" style="width: 50%;" />
@@ -85,8 +86,13 @@ expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN 
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/b800219c-f1c3-4cae-8fe8-6ce9ebee31fd" alt="Image" style="width: 50%;" />
 
+7. **Per-pixel classification is not all you need for semantic segmentation** NeurIPS 2021 [paper](https://proceedings.neurips.cc/paper_files/paper/2021/file/950a4152c2b4aa3ad78bdd6b366cc179-Paper.pdf)
 
+<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/02b14fbd-4513-42e5-bc6c-b1a2fed0c970" alt="Image" style="width: 50%;" />
 
+8. **PanopticFusion: Online Volumetric Semantic Mapping at the Level of Stuff and Things** IROS 2019 [paper](https://arxiv.org/pdf/1903.01177.pdf)
+
+<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/d0edb319-ad23-4e0b-8df9-f48dfac12898" alt="Image" style="width: 50%;" />
 
       
 ## [Map](#content)

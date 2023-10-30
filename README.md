@@ -69,6 +69,14 @@ expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/06234748-9740-4832-a546-baf384192ff9" alt="Image" style="width: 50%;" />
 
 ## [Segment](#content)
+1. **Panoptic Segmentation** CVPR 2019 [paper](https://arxiv.org/pdf/1801.00868.pdf)
+   1. Propose Panoptic segmentation metric
+   
+      ![image](https://github.com/Leomingyangli/GNNPapers/assets/39786611/92aab22b-e983-43e7-ac37-a2ebb123ebe8)
+      ![image](https://github.com/Leomingyangli/GNNPapers/assets/39786611/e358cac5-64a4-4c1b-a434-be908fab8e53)
+      ![image](https://github.com/Leomingyangli/GNNPapers/assets/39786611/3a8e8258-4363-4f9d-8636-0ce196e27908)
+
+   
 1. **Fusion-Aware Point Convolution for Online Semantic 3D Scene Segmentation** CVPR 2020 [paper](https://arxiv.org/pdf/2003.06233.pdf)
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/89a16a96-b933-45ef-8ed8-255b3a8fe2b9" alt="Image" style="width: 50%;" />

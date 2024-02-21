@@ -68,6 +68,10 @@ expanded neighborhood is, in the worst case, the product of the tl’s. FastGCN 
 
 <img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/06234748-9740-4832-a546-baf384192ff9" alt="Image" style="width: 50%;" />
 
+4. **3D Scene Graph: A Structure for Unified Semantics, 3D Space, and Camera** ICCV 2019 [paper](https://arxiv.org/pdf/1910.02527.pdf)
+
+<img src="https://github.com/Leomingyangli/GNNPapers/assets/39786611/be5aad15-d0c4-4862-bd86-7a4a44d72091" alt="Image" style="width: 50%;" />
+
 ## [Segment](#content)
 1. **Panoptic Segmentation** CVPR 2019 [paper](https://arxiv.org/pdf/1801.00868.pdf)
    1. Propose Panoptic segmentation metric
